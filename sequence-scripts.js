@@ -1,4 +1,3 @@
-		<script defer>
 /****************************** 
     RECENT TOPICS
 *******************************/
@@ -161,12 +160,8 @@ $(document).ready(function() {
     $(".act-ST #innerwrapper > table:first-of-type").attr("id", "topic-actions-top");
     $("a:contains(Topic Options)").closest("table").attr("id", "topic-actions-bottom");
 });
-</script>
 
 
-
-
-<script>
 /****************************** 
 MEMBER GROUP COLORS
 *******************************/
@@ -193,9 +188,6 @@ MEMBER GROUP COLORS
             }
         });
     });
-</script>
-
-<script>
 /****************************** 
 PLACEHOLDER IMAGES
 *******************************/
@@ -210,4 +202,3 @@ PLACEHOLDER IMAGES
             image.src = "https://placehold.co/100";
         }
     });
-</script>
